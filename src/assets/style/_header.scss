@@ -1,0 +1,39 @@
+.header {
+    background: #F3EDF7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 1px 3px rgba(0, 0, 0, 0.3);
+    padding: 17px 20px;
+    position: relative;
+    overflow: hidden;
+    height: 64px;
+
+    &__notes {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1 {
+            color: #1C1B1F;
+            font-size: 22px;
+            line-height: 28px;
+        }
+        button{
+           font-size: 20px;
+           cursor: pointer;
+        }
+    }
+    &__form {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        input{
+            display: block;
+            width: 85%;
+            font-size: 16px;
+            line-height: 20px;
+            color: #9D9D9D;
+            background: transparent;
+            
+        }
+    }
+}
